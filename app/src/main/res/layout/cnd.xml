@@ -1,0 +1,414 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textview2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="3dp"
+		android:background="#03A9F4"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="Conditions générales GLOBY"
+		android:textSize="10sp"
+		android:textColor="#FFFFFF"/>
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="80dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Détails et Conditions d’utilisation"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal"/>
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="---- RUBRIQUES ----"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal"/>
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="BOUTON SOS :"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:text="Ce bouton a deux fonctions fondamentaux, appuyez 3 secondes pour appeler le Centre d'appel Globy et recevoir de l'aide rapidement, vous pouvez aussi appuyer une fois pour spécifier l'urgence et envoyer un sms avec votre localisation pour être secouru ."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview14"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="Le centre d'appel Globy vous rappelera dans les plus brefs délais pour vous rassurer et avoir plus de détails sur la situation."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TRACEUR GPS"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Ce bouton vous permettra d'envoyer à un interlocuteur possédant un compte Globy votre localisation, le niveau de votre batterie et le son environnant."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Cette fonctionnalité serait très utile si vous empruntez un chemin dangereux et préférez que quelqu'un de votre connaissance veille sur vous. Attention, vous devez connaître personnellement la personne à qui vous envoyez votre localisation."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Cette fonctionnalité pourrait être aussi utilisé par les parents pour veiller à ses enfants."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="EN CAS D'URGENCE PENDANT LA SUIVIE : "
+					android:textSize="10sp"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Le correspondant qui suit l'utilisateur devra appeler les secours le plus rapidement possible, et avertir le centre d'appel Globy, pour procéder à l'extraction des données de la suivie pour une enquête éventuelle."
+					android:textSize="10sp"
+					android:textColor="#000000"/>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/textview13"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Sans avertissement de la part des utilisateurs, les données du traceur gps seront formatés chaque jour à 01:00"
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview15"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:text="RENDEZ-VOUS"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview16"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Cette fonction pourra être utilisé entre deux utilisateurs globy pour se donner rendez-vous à un emplacement precis."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview17"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:text="MOTEUR DE RECHERCHE GLOBY"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview18"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Vous pouvez chercher tout ce que vous voulez dans cette section: un resto , un hôtel, un bureau, une source d'eau potable,... et même des toilettes publiques."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview19"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:text="AJOUT D'EMPLACEMENT"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview20"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="Vous pouvez, vous même ajouter un lieu ou votre activité dans la base de donnée Globy pour avoir plus de visibilité."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview21"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="PHARMACIE DE GARDE"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview22"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="Dans cette section, vous pourrez voir les pharmacies de garde dans votre région."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview23"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ÉVÉNEMENTS"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview24"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Ici, vous trouverez sur une carte les évènements créés par d'autres utilisateurs autour de vous."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview25"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:text="JEUX ET DIVERTISSEMENTS"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview26"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:text="Plusieurs jeux intéressants que l'utilisateur peut jouer même sans connexion internet."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview27"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="---- MISE À JOUR ----"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal"/>
+			<TextView
+				android:id="@+id/textview28"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Dans l'application Globy, vous devez mettre à jour la base de donnée Globy souvent, pour vous assurer que vous ayez tous les nouveaux données enregistrées dans Globy."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview29"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="---- CONDITIONS GÉNÉRALES ----"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal"/>
+			<TextView
+				android:id="@+id/textview38"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="1. Les services que nous fournissons "
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview30"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Globy développe des technologies et des services permettant à ses utilisateurs d’être à l’affut de ce qui se passe autour de lui à tout moment. Les présentes Conditions régissent votre utilisation de Globy ."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview31"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nous ne vous facturons pas l’utilisation de Globy ou des autres produits et services inclus dans les présentes Conditions. À la place, les entreprises et les organisations nous payent pour vous montrer des publicités pour leurs produits et services."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview32"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nous ne vendons pas vos données personnelles aux annonceurs et ne partageons pas d’informations permettant de vous identifier directement (telles que votre nom, votre adresse e-mail ou toutes autres coordonnées) avec les annonceurs."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview33"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Notre mission consiste à donner à tous la possibilité de signaler les faits qui se passe aux alentours, de Programmer une sortie, un événement ou autre, d’appeler à l’aide et d’être aidé dans une situation de danger."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview34"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nous utilisons les données dont nous disposons, par exemple vos données GPS pour vous localiser en cas de danger, et de vous venir en aide, à tout moment, vous pouvez nous demander d'effacer vos données dans notre base de donnée."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview35"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nous avons également développé de nouvelles manières d’utiliser la technologie, telles que la géolocalisation des téléphones pour pouvoir retrouver les téléphones perdus."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview36"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nous luttons contre les comportements préjudiciables, et nous protégeons et soutenons notre communauté ."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview39"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="2. Comment nos services sont financés "
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview37"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Au lieu de payer pour l’utilisation de Globy  vous acceptez que nous vous montrions les publicités payées par les entreprises et organisations pour que nous les promouvions sur leur Produits et services."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview40"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="3. Vos engagements envers Globy et notre communauté"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview43"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Lorsque les personnes répondent de leur avis et de leurs actions, notre communauté est plus sûre et plus responsable. Pour cette raison, vous devez : "
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview41"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="- Utiliser le même nom que celui que vous utilisez au quotidien ;\n- Fournir des informations exactes à propos de vous ;\n- Créer un seul compte (le vôtre) et ne signaler que des faits dont vous êtes témoin direct "
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview42"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Vous ne pouvez pas utiliser nos Produits pour faire ou partager quoi que ce soit : \n\n- qui est illégal, trompeur, discriminant ou frauduleux ;\n- qui enfreint ou viole des droits tiers, y compris des droits de propriété intellectuelle."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview44"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vous autorisez Globy à communiquer les données que vous transmettez aux services responsables susceptible de répondre à votre demandes."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview45"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="4. RESPONSABILITÉ DU CONTROL ROOM"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview46"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="- Dès la réception d'un signalement, un opérateur globy s'assurera à rappeler le signaleur pour plus de détails si besoin.et à transmettre l'urgence aux services responsables le plus rapidement possible."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview47"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="- Les opérateurs sont des employés de Globy s.a.r.l. et ont reçus les qualifications nécessaires pour effectuer ce travail. Ils sont soumis à des règles et Conditions de confidentialité."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview48"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Notez que tout appels dirigés vers le CONTROL ROOM Globy sont enregistrés ."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
